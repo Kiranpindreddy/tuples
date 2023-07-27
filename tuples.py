@@ -3,16 +3,9 @@
 
 # In[2]:
 
-
-user_input = input()
-user_input = user_input.lower()
-ascii_dict = {}
-for char in user_input:
-    if 'a' <= char <= 'z':
-        ascii_dict[char] = ord(char)
-print(ascii_dict)
-
-
+sample_list = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+sorted_list = sorted(sample_list, key=lambda x: (x[-1], sample_list.index(x)))
+print(sorted_list)
 # In[ ]:
 
 

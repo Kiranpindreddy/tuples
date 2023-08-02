@@ -15,15 +15,6 @@ sample_string = "The quick Brow Fox"
 count_upper_lower(sample_string)
 
 
-# In[6]:
-
-
-No.of upper case characters
-No.of lower case characters
-
-
-# In[ ]:
-
 
 
 
